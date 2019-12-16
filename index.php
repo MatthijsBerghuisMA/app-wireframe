@@ -16,6 +16,7 @@
                 <div class="input_underline"></div>
             </div>
             <input type="checkbox" class="test" name="remeberme" value="yes">Remeber me<br>
+            <a class="forgot" href="forgot.php">Forgot password?</a>
             <a class="form_button" href="patient.php">LOGIN</a>
         </form>
         
