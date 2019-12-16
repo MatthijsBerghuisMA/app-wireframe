@@ -32,12 +32,18 @@ html {
 
 
 body {
-    background: rgba(60, 60, 60);
+    background: rgba(0, 0, 0, 0.78)
 }
 
 .container {
-    margin-left: 30px;
     margin-top: 40px;
+    align-content: center;
+    justify-content: center;
+    width: 70%;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
 }
 
 .header {
@@ -118,11 +124,15 @@ body {
     align-items: center;
     border-radius: 12px;
     font-size: 1.1em;
-    color: rgba(60, 60, 60);;
+    color: rgba(60, 60, 60);
     border: 1px solid;
-    margin-left: 75px;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
     margin-right: auto;
+    justify-content: center;
     display: flex;
+    width: 47%;
     font-weight: 900;
     margin-top: 50px;
 }
@@ -143,17 +153,17 @@ body {
     transform: scale(1);
 }
 
-.patientList {
+.patientList, .todolist {
     margin-top: 75px;
     display: flex;
     flex-direction: column;
 }
 
-.patient {
+.patient, .todo {
     margin: 5px 0;
     border: 1px solid;
     border-radius: 20px;
-    padding: 10px;
+    padding-left: 10px;
     width: 300px;
     height: 75px;
     background-color: #C7C7C7;
@@ -183,4 +193,26 @@ body {
 
 .name {
     font-size: 1.5em;
+}
+
+.todo_info span {
+    color: black;
+    display: flex;
+    margin: 5px;
+    flex-direction: column;
+}
+
+.dot_casing {
+    float: left;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    width: 50px;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
 }

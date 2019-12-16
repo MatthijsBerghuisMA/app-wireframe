@@ -4,7 +4,7 @@
     <span class="header">Login</span>
 
     <div class="contact_inputs">
-        <form action="/GitHub/app-wireframe/patient.php" method="post">
+        <form action="/patient.php" method="post">
             <div class="input-container">
                 <input type="text" id="Username" name="Username" class="input" required>
                 <label class="input_label" for="Username">Username</label>
@@ -16,10 +16,9 @@
                 <div class="input_underline"></div>
             </div>
             <input type="checkbox" class="test" name="remeberme" value="yes">Remeber me<br>
-            <button type="submit" class="form_button">Login</button>
+            <a class="form_button" href="patient.php">LOGIN</a>
         </form>
         
     </div>
-    <div></div>
 
     <?php include 'private/includes/footer.php'; ?>
