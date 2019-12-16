@@ -4,7 +4,7 @@
     <span class="header">Login</span>
 
     <div class="contact_inputs">
-        <form action="/" method="post">
+        <form action="/GitHub/app-wireframe/patient.php" method="post">
             <div class="input-container">
                 <input type="text" id="Username" name="Username" class="input" required>
                 <label class="input_label" for="Username">Username</label>
