@@ -118,7 +118,7 @@ body {
     transition: transform 200ms ease;
 }
 
-.form_button {    
+.form_button {
     background: #C7C7C7;
     padding: 5px 30px;
     align-items: center;
@@ -145,7 +145,7 @@ body {
 .has-value~label {
     font-size: 16px;
     transform: translate(-5px, -20px);
-    color: red;
+    color: rgb(241, 241, 241);
 }
 
 .input:focus~.input_underline {
@@ -153,13 +153,15 @@ body {
     transform: scale(1);
 }
 
-.patientList, .todolist {
+.patientList,
+.todolist {
     margin-top: 75px;
     display: flex;
     flex-direction: column;
 }
 
-.patient, .todo {
+.patient,
+.todo {
     margin: 5px 0;
     border: 1px solid;
     border-radius: 20px;
@@ -169,7 +171,8 @@ body {
     background-color: #C7C7C7;
 }
 
-.patient span, .patient a {
+.patient span,
+.patient a {
     color: black;
 }
 
@@ -186,7 +189,8 @@ body {
     padding-left: 20px;
 }
 
-.age, .gender {
+.age,
+.gender {
     font-style: italic;
     font-size: 0.8em;
 }
@@ -215,4 +219,95 @@ body {
     height: 20px;
     border-radius: 50%;
     background-color: green;
+}
+
+
+.info {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #C7C7C7;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 2em;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back {
+    font-size: 2.5em;
+}
+
+.taskimg {
+    margin-top: 75px;
+    width: 300px;
+    height: 325px;
+    background: white;
+    position: relative;
+}
+
+.tasktodo {
+    background-color: #707070;
+    width: 100%;
+    height: 25px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.taskaudio {
+    width: 100%;
+    margin-top: 50px;
+    font-weight: 900;
+    font-size: 2.5em;
+    padding: 0px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskwhere {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 75px;
+    right: 0;
+    background-color: #707070;
+}
+
+.task_dots {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 0px 150px;
+}
+
+.dot_task {
+    width: 30px;
+    height: 30px;
+    background: darkgrey;
+    border-radius: 50%;
+}
+
+.dot_task:first-of-type {
+    background: rgba(60, 60, 60);
+}
+.where {
+    position: absolute;
+    right: 30px;
+    font-size: 1.5em;
+    top: 23px;
 }
